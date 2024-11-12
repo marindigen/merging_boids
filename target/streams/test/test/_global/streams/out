@@ -1,0 +1,7 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(HoursTest, CustomFingerprint{suite='munit.Suite'}, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(boids.BoidTest, CustomFingerprint{suite='munit.Suite'}, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mSummary for munit not available.[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 19, Failed 0, Errors 0, Passed 19[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HoursTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	boids.BoidTest[0m

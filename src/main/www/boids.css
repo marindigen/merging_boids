@@ -1,0 +1,125 @@
+#canvas {
+  width: 900px;
+  height: 625px;
+  background: white;
+  border: thin solid black;
+}
+#legend canvas {
+  width: 15px;
+  height: 10px;
+  margin-right: 0.5em;
+}
+body {
+  background: #eeeeec;
+  font-family: monospace;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2em;
+  padding: 2em;
+}
+button, textarea, select, input[type="text"] {
+  font-family: inherit;
+  font-size: inherit;
+}
+button {
+  padding: 0 0.5em;
+  width: 5em;
+}
+#controlPanel hr {
+  margin: 0.5em 0;
+}
+#controlPanel, #initial, .inputs {
+  gap: 0.5em;
+}
+#controlPanel, #initial {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+#limits {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+#physics {
+  display: flex;
+  flex-direction: column;
+}
+#debugPanelDetails {
+  width: 15em;
+}
+#debugPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 1em;
+  gap: 1em;
+}
+ul#debugCheckboxes {
+  padding-left: 0;
+  margin: 0;
+}
+ul#debugCheckboxes li {
+  list-style-type: none;
+}
+#debugCheckboxes input + label {
+  margin-left: 0.5em;
+}
+.inputs div {
+  display: flex;
+  align-self: flex-end;
+  align-items: baseline;
+}
+.inputs label {
+  margin-right: 0.5em;
+}
+.inputs input {
+  width: 5em;
+}
+#mainButtons {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#serverDown {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 0, 0, 0.3);
+    visibility: hidden;
+}
+#serverDown span {
+    width: 24em;
+    height: 4em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -2em;
+    margin-left: -12em;
+    font-weight: bold;
+}
+main {
+    position: relative;
+}
+main .overlay {
+    background: #eeeeecaa;
+    border: thin solid black;
+    margin-top: 1em;
+    position: absolute;
+    top: 100%;
+    user-select: none;
+}
+main #legend {
+    right: 0pt;
+    padding: 0.5em 0.75em 0.75em 0.75em;
+    pointer-events: none;
+}
+main #directions {
+    padding: 0.5em;
+    left: 0pt;
+}

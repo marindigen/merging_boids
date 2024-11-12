@@ -1,0 +1,17 @@
+2024.11.12 16:21:03 INFO  Started: Metals version 1.4.0 in folders '/Users/mariayuffa/merging_boids' for client Visual Studio Code 1.95.2.
+2024.11.12 16:21:03 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.12 16:21:03 INFO  no build target found for /Users/mariayuffa/merging_boids/src/main/scala/cs214/BoidSequence.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.12 16:21:04 INFO  Attempting to connect to the build server...
+2024.11.12 16:21:04 INFO  Found a Bloop server running
+2024.11.12 16:21:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mariayuffa/merging_boids/.metals/bsp.trace.json or /Users/mariayuffa/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.11.12 16:21:04 INFO  time: Connected to build server in 0.17s
+2024.11.12 16:21:04 INFO  Connected to Build server: Bloop v2.0.3
+2024.11.12 16:21:04 INFO  running doctor check
+2024.11.12 16:21:04 INFO  java targets: 
+2024.11.12 16:21:04 INFO  no build target found for /Users/mariayuffa/merging_boids/src/main/scala/cs214/BoidSequence.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.12 16:21:05 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.12 16:21:05 INFO  no build target found for /Users/mariayuffa/merging_boids/src/main/scala/cs214/BoidSequence.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.12 16:21:05 INFO  time: indexed workspace in 1.64s
+2024.11.12 16:21:06 WARN  no build target for: /Users/mariayuffa/merging_boids/src/main/scala/cs214/BoidSequence.scala
+2024.11.12 16:21:06 INFO  no build target found for /Users/mariayuffa/merging_boids/src/main/scala/cs214/BoidSequence.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.12 16:21:06 INFO  no build target found for /Users/mariayuffa/merging_boids/src/main/scala/cs214/BoidSequence.scala. Using presentation compiler with project's scala-library version: 3.3.4

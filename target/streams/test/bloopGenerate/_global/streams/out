@@ -1,0 +1,4 @@
+[debug] [boids-test] Classpath dependencies List()
+[debug] [boids-test] Dependencies from configurations List(boids)
+[debug] Bloop wrote the configuration of project 'boids-test' to '/Users/mariayuffa/boids/.bloop/boids-test.json'
+[success] Generated .bloop/boids-test.json

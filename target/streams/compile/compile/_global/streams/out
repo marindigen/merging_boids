@@ -1,0 +1,8 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /Users/mariayuffa/boids/src/main/scala/boids/BoidLogic.scala:88:14 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m88 |[0m    size = log(totalSize),[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m           ^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m           Found:    Double[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m           Required: Float[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

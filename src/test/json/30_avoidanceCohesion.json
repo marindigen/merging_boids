@@ -1,0 +1,90 @@
+{
+    "initialBoids": [
+        {
+            "x": 40,
+            "y": 0,
+            "vx": 0,
+            "vy": 0
+        },
+        {
+            "x": 10,
+            "y": -40,
+            "vx": 0,
+            "vy": 0
+        }
+    ],
+    "physics": {
+        "limits": {
+            "xmin": -500,
+            "xmax": 500,
+            "ymin": -350,
+            "ymax": 350
+        },
+        "minimumSpeed": 0,
+        "maximumSpeed": 100,
+        "perceptionRadius": 80,
+        "avoidanceRadius": 22,
+        "avoidanceWeight": 10,
+        "cohesionWeight": 0.1,
+        "alignmentWeight": 0,
+        "containmentWeight": 0
+    },
+    "reference": [
+        [
+            {
+                "x": 40,
+                "y": 0,
+                "vx": 0,
+                "vy": 0
+            },
+            {
+                "x": 10,
+                "y": -40,
+                "vx": 0,
+                "vy": 0
+            }
+        ],
+        [
+            {
+                "x": 40,
+                "y": 0,
+                "vx": -3,
+                "vy": -4
+            },
+            {
+                "x": 10,
+                "y": -40,
+                "vx": 3,
+                "vy": 4
+            }
+        ],
+        [
+            {
+                "x": 37,
+                "y": -4,
+                "vx": -6,
+                "vy": -8
+            },
+            {
+                "x": 13,
+                "y": -36,
+                "vx": 6,
+                "vy": 8
+            }
+        ],
+        [
+            {
+                "x": 31,
+                "y": -12,
+                "vx": -8.399999618530273,
+                "vy": -11.199999809265137
+            },
+            {
+                "x": 19,
+                "y": -28,
+                "vx": 8.399999618530273,
+                "vy": 11.199999809265137
+            }
+        ]
+    ]
+}

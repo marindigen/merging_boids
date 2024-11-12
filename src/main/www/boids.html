@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>BOIDs simulation</title>
+    <link rel="stylesheet" href="src/boids.css" type="text/css">
+    <script src="src/boids.js"></script>
+  </head>
+  <body>
+    <main>
+      <canvas id="canvas"></canvas>
+      <aside id="legend" class="overlay">
+        <fieldset>
+          <legend>legend</legend>
+          <div><canvas id="legendMine"></canvas><span>computed</span></div>
+          <div><canvas id="legendReference"></canvas><span>reference</span></div>
+          <div><canvas id="legendOutside"></canvas><span>world boundary</span></div>
+        </fieldset>
+      </aside>
+      <footer id="directions" class="overlay">
+        Zoom with mouse wheel, move by clicking and dragging, or <a id="resetViewButton" href="#">reset view</a>.
+      </footer>
+    </main>
+    <aside id="controlPanel">
+      <fieldset id="initial">
+        <legend>initial configuration</legend>
+        <select id="presets" for="initConfig" autocomplete="off"></select>
+        <textarea id="initConfig" rows=10 autocomplete="off"></textarea>
+      </fieldset>
+      <section id="boidsCount" class="inputs">
+        <label for="boidsCount">boids count</label>
+        <input type="text" inputmode="numeric" />
+      </section>
+      <section id="mainButtons">
+        <button id="runButton" type="button" autocomplete="off">run</button>
+        <button id="resetButton" type="button" autocomplete="off">reset</button>
+      </section>
+      <hr>
+      <fieldset id="limits" class="inputs">
+        <legend>world limits</legend>
+        <div>
+          <label for="xmin">xmin</label>
+          <input type="text" inputmode="numeric" id="xmin" />
+        </div>
+        <div>
+          <label for="xmax">xmax</label>
+          <input type="text" inputmode="numeric" id="xmax" />
+        </div>
+        <div>
+          <label for="ymin">ymin</label>
+          <input type="text" inputmode="numeric" id="ymin" />
+        </div>
+        <div>
+          <label for="ymax">ymax</label>
+          <input type="text" inputmode="numeric" id="ymax" />
+        </div>
+      </fieldset>
+      <fieldset id="physics" class="inputs">
+        <legend>physics</legend>
+        <div>
+          <label for="perceptionRadius">perception radius</label>
+          <input type="text" inputmode="numeric" id="perceptionRadius" />
+        </div>
+        <div>
+          <label for="avoidanceRadius">avoidance radius</label>
+          <input type="text" inputmode="numeric" id="avoidanceRadius" />
+        </div>
+        <div>
+          <label for="avoidanceWeight">avoidance weight</label>
+          <input type="text" inputmode="numeric" id="avoidanceWeight" />
+        </div>
+        <div>
+          <label for="cohesionWeight">cohesion weight</label>
+          <input type="text" inputmode="numeric" id="cohesionWeight" />
+        </div>
+        <div>
+          <label for="alignmentWeight">alignment weight</label>
+          <input type="text" inputmode="numeric" id="alignmentWeight" />
+        </div>
+        <div>
+          <label for="containmentWeight">containment weight</label>
+          <input type="text" inputmode="numeric" id="containmentWeight" />
+        </div>
+        <div>
+          <label for="minimumSpeed">minimum speed</label>
+          <input type="text" inputmode="numeric" id="minimumSpeed" />
+        </div>
+        <div>
+          <label for="maximumSpeed">maximum speed</label>
+          <input type="text" inputmode="numeric" id="maximumSpeed" />
+        </div>
+      </fieldset>
+      <hr>
+      <details id="debugPanelDetails">
+        <summary>debug mode</summary>
+        <section id="debugPanel">
+          <ul id="debugCheckboxes">
+            <li>
+              <input type="checkbox" id="trace" autocomplete="off" /><label for="trace">trace</label>
+            </li>
+            <li>
+              <input type="checkbox" id="slow" autocomplete="off" /><label for="slow">slow</label>
+            </li>
+            <li>
+              <input type="checkbox" id="reference" autocomplete="off" /><label for="reference">reference</label>
+            </li>
+          </ul>
+          <button id="debugStep" type="button" autocomplete="off">step</button>
+        </section>
+      </details>
+    </aside>
+    <aside id="serverDown">
+      <span>Error: could not reach server. Make sure the server is running, and
+      has not encountered any errors, then reload this page.</span>
+    </aside>
+  </body>
+</html>
